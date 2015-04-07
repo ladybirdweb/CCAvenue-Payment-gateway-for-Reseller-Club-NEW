@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ladybird Plugin Documentation</title>
+    <meta name="description" content="CCAvenue Payment Gateway for Reseller Club Documentation v. 1.2.3 by Ladybird">
+    <meta name="author" content="Ladybird Web Solution">
+    
+    <!--  Styleheets  -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-lightbox.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="">
+    <link rel="apple-touch-icon-precomposed" href="">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+<body data-spy="scroll" data-target="#side-navbar">	
+        <header id="mainHeader" class="jumbotron subhead">
+            <div class="container">
+                <h1 style="font-size: 40px; margin-top: 20px; margin-bottom: 5px;">Ladybird Web Solution &nbsp;<a href="http://www.ladybirdweb.com"><img src="img/ladybird.png"/></a></h1>
+		    <p class="lead" style="margin-bottom: 20px;"><strong>Documentation v.1.2.5</strong> for CCAvenue Payment Gateway for Reseller Club  v.1.2.5</p>
+            </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 " id="side-navbar">
+                <ul class="nav nav-tabs nav-stacked hidden-md hidden-sm hidden-xs" data-spy="affix"
+                data-offset-top="130">
+                    <li><a href="#support"><i class="glyphicon glyphicon-chevron-right"></i>Free Support</a>
+                    </li>
+                    <li><a href="#s01"><i class="glyphicon glyphicon-chevron-right"></i>1. Description</a>
+                    </li>
+                    <li><a href="#s02"><i class="glyphicon glyphicon-chevron-right"></i>2. Reseller Club Configuration</a>
+                    </li>
+                    <li><a href="#s03"><i class="glyphicon glyphicon-chevron-right"></i>3. CCAvenue Configuration</a>
+                    </li>
+                    <li><a href="#s04"><i class="glyphicon glyphicon-chevron-right"></i>4. GUI Web Installer</a>
+                    </li>
+                    <li><a href="#s05"><i class="glyphicon glyphicon-chevron-right"></i>5. Manual Install</a>
+                    </li>
+                    <li><a href="#s06"><i class="glyphicon glyphicon-chevron-right"></i>6. Sources and Credits</a>
+                    </li>
+                </ul>
+                <ul class="nav nav-tabs nav-stacked hidden-lg">
+                    <li><a href="#support"><i class="glyphicon glyphicon-chevron-right"></i>Free Support</a>
+                    </li>
+                    <li><a href="#s01"><i class="glyphicon glyphicon-chevron-right"></i>1. Description</a>
+                    </li>
+                    <li><a href="#s02"><i class="glyphicon glyphicon-chevron-right"></i>2. Reseller Club Configuration</a>
+                    </li>
+                    <li><a href="#s03"><i class="glyphicon glyphicon-chevron-right"></i>3. CCAvenue Configuration</a>
+                    </li>
+                    <li><a href="#s04"><i class="glyphicon glyphicon-chevron-right"></i>4. GUI Web Installer</a>
+                    </li>
+                    <li><a href="#s05"><i class="glyphicon glyphicon-chevron-right"></i>5. Manual Install</a>
+                    </li>
+                    <li><a href="#s06"><i class="glyphicon glyphicon-chevron-right"></i>6. Sources and Credits</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-8 col-lg-offset-1">
+                <section>
+                    <br />
+                    <br />
+                    <br />
+                    <div class="jumbotron " id="hero">
+                        <div class="text-center">
+                             <h1 style="margin-top: 0; margin-bottom: 15px;">Thank You For Purchasing CCAvenue Payment Gateway for Reseller Club !</h1>
+                        </div>
+                        <p style="margin: 20px 0;">You can read below a comprehensive guide with detailed instructions about
+                            the CCAvenue Payment Gateway for Reseller Club functionalities. Each section
+                            is carefully explained, using helpful screenshots and videos when necessary.
+                            It contains everything you need to have your plugin up and running in no
+                            time.</p>
+                        <p>
+                            <ul>
+                                <li>Created: March 11, 2014</li>
+                                <li>Latest update: August 21, 2014</li>
+                                <li>By: Ladybird Web Solution</li>
+                                <li>Website: <a href="http://www.ladybirdweb.com">www.ladybirdweb.com</a>
+                                </li>
+                                <li>Email: <a href="mailto:support@ladybirdweb.com">support@ladybirdweb.com</a>
+                                </li>
+                            </ul>
+                        </p>
+                        <div class="btn-group hidden-md hidden-sm hidden-xs text-center"><a href="http://www.ladybirdweb.com/support" class="btn btn-warning btn-lg"
+                            target="_blank">Support Forum</a><a href="http://themeforest.net/user/ladybirdweb/follow"
+                            class="btn btn-warning btn-lg" target="_blank">Follow on Envato</a><a href="http://www.youtube.com/user/ladybirdweb"
+                            class="btn btn-warning btn-lg" target="_blank">YouTube Channel</a>
+                        </div>
+                        <div class="hidden-lg text-center">	<a href="http://www.ladybirdweb.com/support" class="btn btn-warning" target="_blank"
+                            style="margin: 5px;">Support Forum</a>  <a href="http://themeforest.net/user/ladybirdweb/follow"
+                            class="btn btn-warning" style="margin: 5px;" target="_blank">Follow on Envato</a> 
+                            <a
+                            href="http://www.youtube.com/user/ladybirdweb" class="btn btn-warning"
+                            style="margin: 5px;" target="_blank">YouTube Channel</a>
+                        </div>
+                    </div>
+                </section>
+                <section id="support">
+                    <div class="page-header">
+                        <h1>Free Support</h1>
+                    </div>
+                    <p>We provide <strong>Free Customer Support for all Ladybird</strong> products
+                        through our quick and easy ticket application interface. Please limit your
+                        inquiries to problems related to the CCAvenue Payment Gateway for Reseller
+                        Club , its setup and features. For any problems concerning third-party
+                        plugins you should address the application’s developer.
+                            <h3>Free Ticket Support</h3>
+                        <p>Ladybird Web Solution offers a <strong>free ticket support application</strong> for
+                            all clients. The dedicated app is <strong>fast and easy to use</strong> and
+                            includes an email notification feature. We will let you know as soon as
+                            your inquiry has received an answer. Thanks to our modern design, you can
+                            also upload images as an attachment to your support ticket.</p>
+                            <h5>Before writing a ticket please get your License Certificate:</h5>
+                        <p>Before <strong>opening a new ticket</strong>, please make sure you have
+                            read through <strong>all our documentation</strong> and watched the <strong>video tutorials</strong>.
+                            Also, our <strong>FAQ section</strong> contains helpful answer to questions
+                            we often receive from our customers. Following these steps is in the users’
+                            interest, as they will save valuable time. Still, we are always happy to
+                            respond to any inquiries you may have related to the CCAvenue Payment Gateway
+                            for Reseller Club.</p>
+                        <br />
+                        <p><a href="http://www.ladybirdweb.com/support" target="_blank" class="btn btn-warning btn-lg">Open Ticket</a>
+                        </p>
+                    </p>
+                </section>
+                <section id="s01">
+                    <div class="page-header">
+                        <h1>1. Description</h1>
+                    </div>
+                    <p>This extends Reseller Club to accepts money/payments through CCAvenue
+                        Payment gateway on your supersite. South Asia's biggest Payment Gateway
+                        and Merchant Accounts service provider.
+                        <br />
+                        <br />Plugin is a set of files, with step by step documentation.
+                        <br />
+                        <br />Open the documentation, make slight changes, enter API/key values from
+                        CCAvenue &amp; Reseller Club account to the files as shown in documentation.
+                        Start accepting payment on your store front within 5 to 10 minutes.
+                        <br
+                        />
+                        <br />Step by step video guide to be uploaded soon.</p>
+                </section>
+                <section id="s02">
+                    <div class="page-header">
+                        <h1>2. Reseller Club Configuration</h1>
+                    </div>
+                    <p>Here are the steps/changes that you need to do, to add CCAvenue Payment
+                        gateway to Reseller Club
+                        <br />
+                        <br />&nbsp;</p>
+                    <ol>
+                        <li>Login to Reseller Club
+                            <br />	<a href="img/content/1.jpg"><img alt="HTML Structure" src="img/content/1.jpg" class="img-rounded img-polaroid img-responsive" /></a>
+                        </li>
+                        <li>Go to Settings &gt;&gt; Finance &amp; Billing &gt;&gt; Payment Gateway
+                            &gt;&gt; List/Add
+                            <br />	<a href="img/content/2.jpg"><img alt="HTML Structure" src="img/content/2.jpg" class="img-rounded img-polaroid img-responsive" /></a>
+                        </li>
+                        <li>Click Add a Gateway
+                            <br />	<a href="img/content/3.jpg"><img alt="HTML Structure" src="img/content/3.jpg" class="img-rounded img-polaroid img-responsive" /></a>
+                        </li>
+                        <li>Click Add any other Payment Gateway
+                            <br />	<a href="img/content/4.jpg"><img alt="HTML Structure" src="img/content/4.jpg" class="img-rounded img-polaroid img-responsive" /></a>
+                        </li>
+                        <li>Give Name to the gateway
+                            <br />Enter URL of the domain/server where you are hosting this project e.g
+                            http://www.yourdomain.com/directory/checkout.php
+                            <br />	<a href="img/content/5.jpg"><img alt="HTML Structure" src="img/content/5.jpg" class="img-rounded pull-right img-polaroid img-responsive" /></a>
+                        </li>
+                        <li>Go to Settings &gt;&gt; Finance &amp; Billing &gt;&gt; Payment Gateway
+                            &gt;&gt; List/Add
+                            <br />Click Manage on the gateway name that you just created
+                            <br />Click Generate Key &amp; new key will get generated, save this key, we
+                            will use it, in next step
+                            <br />	<a href="img/content/6.jpg"><img alt="HTML Structure" src="img/content/6.jpg" class="img-rounded pull-right img-polaroid img-responsive" /></a>
+                        </li>
+                    </ol>
+                </section>
+                <section id="s03">
+                    <div class="page-header">
+                         <h1>3. CCAvenue Configuration</h1>
+                    </div>
+                    <p>Here are the steps/changes that you need to do, on CCAvenue website to
+                        integrate it with Reseller Club</p>
+                    <ol>
+                        <li>Login to CCAvenue
+                            <br />	<a href="assets/images/7.jpg"><img alt="HTML Structure" src="img/content/7.jpg" style="width: 599px;" class="img-responsive" /></a>
+                        </li>
+                        <li>Go to Setting &gt;&gt; API Keys, We will use these keys in the next step,
+                            in the screenshot API keys are hidden for security reason
+                            <br />	<a href="assets/images/8.jpg"><img alt="HTML Structure" src="img/content/8.jpg" style="width: 599px;" class="img-responsive" /></a>
+                        </li>
+                    </ol>
+                </section>
+                <section id="s04">
+                    <div class="page-header">
+                        <h1>4. GUI Web Installer</h1>
+                    </div>
+                    <ul>
+                        <li>Open http://www.yourdomain.com/directory/install Click Create a Configuration
+                            file
+                            <br /> <a href="assets/images/13.jpg"><img alt="HTML Structure" src="img/content/13.jpg" style="width: 599px;" class="img-responsive" /></a>
+                        </li>
+                        <li>Click Let's go!
+                            <br /> <a href="assets/images/14.jpg"><img alt="HTML Structure" src="img/content/14.jpg" style="width: 599px;" class="img-responsive" /></a>
+                        </li>
+                        <li>Fill in the details &amp; click submit button, directory gets filled automatically
+                            <br
+                            /> <a href="assets/images/15.jpg"><img alt="HTML Structure" src="img/content/15.jpg" style="width: 599px;" class="img-responsive" /></a>
+                            <br
+                            />Thats it, this will create config files and you are ready to go</li>
+                    </ul>
+                </section>
+                <section id="s05">
+                    <div class="page-header">
+                        <h1>5. Manual Install</h1>
+                    </div>
+                    <ul>
+                        <li>Rename config-sample.php to config.php</li>
+                        <li>open config.php add the keys from CCAvenue &amp; Reseller Club, which
+                            were obtained in earlier steps. Edit the links as shown in screenshot
+                            <br
+                            /> <a href="img/content/17.jpg"><img alt="HTML Structure" src="img/content/17.jpg" class="img-rounded pull-right img-polaroid img-responsive" /></a>
+                        </li>
+                        <li>Delete the install folder &amp; all the files inside it</li>
+                    </ul>
+                </section>
+                <section id="s06">
+                    <div class="page-header">
+                        <h1>6. Sources and Credits</h1>
+                    </div>
+                    <p>I've used the files as listed.</p>
+                    <ul>
+                        <li>Integration kit files from CCAvenue</li>
+                        <li>Integration kit files from Reseller Club</li>
+                    </ul>
+                    <p>Once again, thank you so much for purchasing this code. As I said at the
+                        beginning, I'd be glad to help you if you have any questions relating to
+                        this code. No guarantees, but I'll do my best to assist. If you have a
+                        more general question relating to the codes on codecanyon, you might consider
+                        visiting the forums and asking your question in the "Item Discussion" section.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <p class="pull-left muted">2014 © Copyright. All Rights Reserved</p>
+            <p class="pull-right muted"><a href="#" target="_blank">CCAvenue Payment Gateway for Reseller Club </a> Powered
+                by <a href="http://www.ladybirdweb.com" target="_blank">Ladybird Web Solution</a>
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+	    <script src="js/jquery-1.10.1.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <script src="js/bootstrap-lightbox.min.js"></script>
+	    <script src="js/jquery.fitvids.js" type="text/javascript"></script>
+	    <script type="text/javascript">
+	    	$(document).ready(function(){
+	    	    // Target your .container, .wrapper, .post, etc.
+	    	    $(".fitvid").fitVids();
+	    	  });
+	    </script>
+</body>
+</html>

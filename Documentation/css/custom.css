@@ -1,0 +1,236 @@
+
+#side-navbar ul, .dropdown-menu{
+	padding: 0;
+	background-color: #FFF;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .065);
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .065);
+	border: 1px solid #ddd;
+}
+/*#side-navbar ul{
+	width: 220px;
+}*/
+#side-navbar a{
+	min-width: 100%;
+	color: #444;
+	box-sizing: border-box;
+}
+#side-navbar .active > a{
+	background: #f39c12;
+	color: #fff;
+	border: 1px solid #f1c40f;
+}
+#side-navbar i{
+	float: right;
+	margin-left: 10px;
+}
+#side-navbar .active > a i{
+	/*background-image: url(../img/glyphicons-halflings-white.png);*/
+}
+hr{
+	margin: 60px 0 60px;
+	clear: both;
+}
+section{
+	margin-bottom: 120px;
+}
+pre{
+	color: #d14;
+}
+.full-image{
+	margin: 30px 0;
+	width: 100%;
+	box-sizing: border-box;
+	height: auto;
+}
+img.pull-right{
+	margin: 0 0 60px 30px;
+}
+img.pull-left{
+	margin: 0 30px 60px 0;
+}
+h1, h2, h3, h4, h5, h6{
+	margin-bottom: 20px;
+	margin-top: 1.5em;
+}
+img + hr{
+	margin-top: 30px;
+}
+h1 + img, h2 + img, h3 + img, h4 + img, h5 + img, h6 + img{
+	margin-top: 0 !important;
+}
+.dropdown-submenu a:after, .dropdown-submenu{
+	content: none;
+}
+.dropdown-menu{
+	padding: 5px 0 !important;
+}
+.dropdown-menu a{
+	min-width: inherit !important;
+}
+ul li{
+	margin-bottom: 10px;
+}
+.well h1, .well h2, .well h3, .well h4, .well h5, .well h6{
+	margin-top: 0;
+}
+.subhead{
+	background:#F39C12 !important;
+	color: #fff !important;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
+}
+.subhead:after{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 130px;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+}
+#side-navbar ul{
+	margin-top: 60px;
+}
+.affix {
+    top: 0;
+}
+.accordion a{
+	color: #333;
+	display: block;
+}
+.accordion a:hover{
+	text-decoration: none;
+	color: #999;
+}
+.accordion .unstyled{
+	padding: 10px 0 0px 30px;
+	overflow: auto;
+}
+.accordion .unstyled li{
+	float: left;
+	width: 50%;
+}
+.split-list li{
+	float: left;
+	width: 50%;
+	font-size: 0.9em;
+}
+.split-list-three li{
+	float: left;
+	width: 33% !important;
+	font-size: 0.9em;
+}
+a.logo{
+	float: right;
+	margin: 30px 0 0 0;
+	opacity: 1;
+	-webkit-transition: all 360ms ease-in;
+	-moz-transition: all 360ms ease-in;
+    -ms-transition: all 360ms ease-in;
+    -o-transition: all 360ms ease-in;
+	transition: all 360ms ease-in;
+	position: relative;
+	z-index: 3;
+}
+a.logo:hover{
+	opacity: .9;
+}
+.hero-unit{
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .8);
+}
+.hero-unit .btn{
+	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
+}
+.accordion-heading {
+	font-weight: bold;
+}
+#footer{
+	background: #efefef;
+	padding: 20px 0 10px;
+}
+
+.fitvid{
+	margin-top: 30px;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	#side-navbar ul{
+		width: 270px;
+	}
+}
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.subhead{
+		text-align: center;
+		margin-right: -20px;
+		margin-left: -20px;
+		padding: 0 20px;
+	}
+	.subhead .lead{
+		font-size: 1.1em;
+	}
+	.split-list li, .accordion .unstyled li {
+		float: none !important;
+		width: 100% !important;
+	}
+	#side-navbar ul{
+		width: 100%;
+	}
+	#footer{
+		text-align: center;
+		margin-right: -20px;
+		margin-left: -20px;
+		padding: 20px;
+		text-align: center;
+	}
+	#footer .pull-left, #footer .pull-right{
+		float: none !important;
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.subhead{
+		text-align: center;
+		margin-right: -20px;
+		margin-left: -20px;
+		padding: 0 20px;
+	}
+	.hero-unit h1{
+		font-size: 2.5em;
+	}
+	.hero-unit {
+		padding: 30px;
+	}
+}
+
+#mainHeader {
+	padding-top:5px !important;
+	padding-bottom:5px !important;
+}
+.nav-stacked > li + li {
+	margin-top: 0!important;	
+}
+.nav-tabs > li > a{
+	border-radius: 0 !important;
+}
+#hero ul li{
+	font-size: 18px;
+}
+
+.nav-tabs.nav-stacked > li > a {
+border-bottom: 1px solid #DDD;
+}
+
+
